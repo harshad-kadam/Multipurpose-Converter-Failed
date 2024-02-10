@@ -1,0 +1,64 @@
+
+/* MediaQueries.css */
+
+/* Responsive styles for screens up to 768px width (adjust as needed) */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    min-height: 100vh; /* Set a minimum height to fill the entire viewport */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  .Header {
+    /* order: 1; */
+    width: 100%; /* Make the header full width */
+  }
+
+  .editors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal scrolling inside editors-container */
+  }
+
+  .xml-editor-pane {
+    margin-bottom: 10px;
+    width: 100%; /* Make the XmlEditor full width */
+    max-width: 100vw; /* Set max-width to viewport width */
+  }
+
+  .buttons-container {
+    /* order: 3; */
+    /* width: 100%; */
+    display: none;
+  }
+
+  .buttons-container-inner {
+    margin-bottom: 10px;
+    display: block;
+    max-width: 100vw; /* Set max-width to viewport width */
+  }
+
+  .json-editor-pane {
+    margin-bottom: 10px;
+    width: 100%; /* Make the JsonEditor full width */
+    max-width: 100vw; /* Set max-width to viewport width */
+  }
+
+  .Footer {
+    /* order: 5; */
+    width: 100%; /* Make the footer full width */
+  }
+
+  /* .editor-pane {
+    padding: 10px;
+  } */
+}
+
+
+
